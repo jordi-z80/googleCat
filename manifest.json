@@ -1,0 +1,54 @@
+{
+	"name": "GoogleCat",
+	"version": "0.988",
+	"description": "Totes les cerques fetes amb Google retornaran més resultats en català.",
+	"manifest_version": 3,
+	"author": "jordi-z80",
+
+	"action": 
+	{
+		"default_popup": "popup.html",
+		"default_title": "GoogleCat"
+	},
+
+	"host_permissions": 
+	[
+		"*://*.google.com/search*",
+		"*://*.google.cat/search*",
+		"*://*.google.ad/search*",
+		"*://*.google.fr/search*",
+		"*://*.google.it/search*",
+		"*://*.google.co.uk/search*",
+		"*://*.google.es/search*",
+		"*://*.google.de/search*"
+	],
+
+	"permissions": ["activeTab","webRequest"],	
+
+	"content_scripts": [
+		{
+			"matches": 
+			[ 
+				"*://*.google.com/search*",
+				"*://*.google.cat/search*",
+				"*://*.google.ad/search*",
+				"*://*.google.fr/search*",
+				"*://*.google.it/search*",
+				"*://*.google.co.uk/search*",
+				"*://*.google.es/search*",
+				"*://*.google.de/search*"
+			],
+			"js": [ "contentScript.js"],
+			"run_at": "document_start"
+		}
+	],
+
+	"icons": 
+	{
+		"16": "icons/icon16.png",
+		"48": "icons/icon48.png",
+		"128": "icons/icon128.png"
+	  }
+
+
+}
