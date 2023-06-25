@@ -19,6 +19,6 @@ I believe that the parameters in "host_permissions" are not necessary.
 
 Extensió de Chromium (Chrome, Edge, ...) per millorar els resultats en català a les cerques de Google.
 
-Fins que Google decideixi tornar a retornar els resultats en l'idioma configurat per l'usuari, independentment de la seva ubicació, aquesta extensió afegeix un parell de paràmetres a cada cerca que maximitza els resultats en català. No és perfecte, però sembla funcionar millor que la cerca estàndar.
+Fins que Google decideixi tornar a retornar els resultats en l'idioma configurat per l'usuari, independentment de la seva ubicació, aquesta extensió afegeix alguns paràmetres a cada cerca que maximitzen els resultats en català. No és perfecte, però sembla funcionar millor que la cerca estàndar.
 
 Amb el manifest V3 no és possible reescriure els paràmetres de la pàgina abans de carregar-la, o sigui que és possible que es vegi un lleuger parpalleig a cada cerca (primer es carrega la pàgina 'estandard' de google, i al rebre els resultats s'injecten els nous paràmetres).
