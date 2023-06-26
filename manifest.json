@@ -38,7 +38,7 @@
 				"*://*.google.es/search*",
 				"*://*.google.de/search*"
 			],
-			"js": [ "contentScript.js"],
+			"js": [ "tools.js","contentScript.js"],
 			"run_at": "document_start"
 		}
 	],

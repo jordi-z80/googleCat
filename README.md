@@ -7,11 +7,9 @@ A few months ago, Google made the decision to overlook certain minority language
 
 This extension keeps track of Google searches (on select domains) and injects parameters into the URL so that results are displayed in Catalan. However, it’s not perfect.
 
-Adapting this extension to other languages should be straightforward by simply modifying the values in the contentScript.js file, specifically in the updateParameters function.
+Adapting this extension to other languages should be straightforward by simply modifying the initial const values in the contentScript.js file.
 
 With Manifest V3, it appears to be impossible to rewrite the URL before the page is loaded, which might cause a flicker before the results are displayed. This is because the standard Google search page is loaded initially; thereafter, the URL is rewritten and the modified page is rendered. Depending on the computer and connection speed, the initial page might be briefly visible before the modified page can be accessed, which results in the flicker.
-
-I believe that the parameters in "host_permissions" are not necessary.
 
 
 ----
