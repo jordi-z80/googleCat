@@ -1,7 +1,7 @@
 # GoogleCat
 [Català](#català)
 
-Chromium extension (Chrome, Edge, etc.) to enhance results for Catalan speakers when searching with Google.
+Chromium extension (Chrome, Edge, etc.) to enhance results for Catalan speakers when searching with Google. (note: for computers only, as mobile Chrome doesn't support extensions)
 
 A few months ago, Google made the decision to overlook certain minority languages, providing responses in alternative languages that it presumes the users would understand.
 
@@ -17,7 +17,7 @@ I believe that the parameters in "host_permissions" are not necessary.
 ----
 ## Català
 
-Extensió de Chromium (Chrome, Edge, ...) per millorar els resultats en català a les cerques de Google.
+Extensió de Chromium (Chrome, Edge, ...) per millorar els resultats en català a les cerques de Google (nota: només per ordinador. El Chrome en mòbil no suporta extensions)
 
 Fins que Google decideixi tornar a retornar els resultats en l'idioma configurat per l'usuari, independentment de la seva ubicació, aquesta extensió afegeix alguns paràmetres a cada cerca que maximitzen els resultats en català. No és perfecte, però sembla funcionar millor que la cerca estàndar.
 
