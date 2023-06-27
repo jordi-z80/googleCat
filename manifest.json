@@ -1,5 +1,5 @@
 {
-	"name": "GoogleCat",
+	"name": "Cerques en català a Google",
 	"version": "0.988",
 	"description": "Totes les cerques fetes amb Google retornaran més resultats en català.",
 	"manifest_version": 3,
@@ -8,7 +8,7 @@
 	"action": 
 	{
 		"default_popup": "popup.html",
-		"default_title": "GoogleCat"
+		"default_title": "Cerques en català a Google"
 	},
 
 	"host_permissions": 
@@ -23,7 +23,7 @@
 		"*://*.google.de/search*"
 	],
 
-	"permissions": ["activeTab","webRequest"],	
+	"permissions": [],	
 
 	"content_scripts": [
 		{
